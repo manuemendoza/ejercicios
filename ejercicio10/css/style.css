@@ -1,0 +1,87 @@
+:root {
+    --primario: rgb(196, 226, 99);
+    --primarioOscuro: rgb(122, 148, 36);
+    --secundario: rgb(185, 139, 0);
+    --secundarioOscuro: ;
+    --gris: #cdd0d3;
+    --blanco: #fff;
+    --negro: #000;
+}
+
+body {
+    border: var(--gris) solid;
+    border-width: 12px 12px 20px 3px;
+}
+
+
+/*global*/
+
+.format {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*header*/
+
+.title {
+    text-align: center;
+    color: var(--primarioOscuro);
+    font-weight: lighter;
+    letter-spacing: 3.5px;
+    margin: 0 auto;
+}
+
+.title__text-brown {
+    color: var(--secundario);
+}
+
+
+/*navegacion*/
+
+.navigation {
+    padding-right: 20px;
+}
+
+.navigation__link {
+    background-color: var(--primario);
+    color: var(--negro);
+    display: flex;
+    justify-content: center;
+    padding: 5px 30px;
+    margin: 5px 15px;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navigation__link--active,
+.navigation__link:hover {
+    background-color: var(--secundario);
+}
+
+
+/*contenido*/
+
+.content {
+    padding: 0 20px;
+    margin: 0 10px 10px 10px;
+    border: 2px var(--gris) solid;
+}
+
+.content__title {
+    margin-right: 10px;
+    border-bottom: 1px var(--gris) solid;
+    padding-bottom: 2px;
+    color: var(--primario);
+}
+
+.content__title--animals {
+    color: var(--secundario);
+}
