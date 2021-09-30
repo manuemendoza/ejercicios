@@ -1,0 +1,63 @@
+:root {
+    --primario: rgb(196, 226, 99);
+    --primarioOscuro: rgb(122, 148, 36);
+    --secundario: rgb(185, 139, 0);
+    --secundarioOscuro: ;
+    --gris: #cdd0d3;
+    --blanco: #fff;
+    --negro: #000;
+}
+
+body {
+    border: var(--gris) solid;
+    border-width: 12px 12px 20px 3px;
+}
+
+
+/*global*/
+
+.format {
+    display: flex;
+}
+
+
+/*header*/
+
+.title {
+    text-align: center;
+    color: var(--primarioOscuro);
+    font-weight: lighter;
+    letter-spacing: 3.5px;
+    margin: 0 auto;
+}
+
+.title__text-brown {
+    color: var(--secundario);
+}
+
+
+/*navegacion*/
+
+.navigation {
+    padding-right: 20px;
+}
+
+
+/*contenido*/
+
+.content {
+    padding: 0 20px;
+    margin: 0 10px 10px 10px;
+    border: 2px var(--gris) solid;
+}
+
+.content__title {
+    margin-right: 10px;
+    border-bottom: 1px var(--gris) solid;
+    padding-bottom: 2px;
+    color: var(--primario);
+}
+
+.content__title--animals {
+    color: var(--secundario);
+}
