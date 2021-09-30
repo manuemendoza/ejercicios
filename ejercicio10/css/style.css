@@ -44,6 +44,13 @@ a {
 }
 
 
+/*images*/
+
+.images {
+    width: 97%;
+}
+
+
 /*navegacion*/
 
 .navigation {
@@ -71,7 +78,7 @@ a {
 
 .content {
     padding: 0 20px;
-    margin: 0 10px 10px 10px;
+    margin: 0 30px 10px 10px;
     border: 2px var(--gris) solid;
 }
 
@@ -84,4 +91,22 @@ a {
 
 .content__title--animals {
     color: var(--secundario);
+}
+
+
+/*footer*/
+
+footer {
+    text-align: center;
+    /* margin-left: ; */
+}
+
+footer p {
+    font-size: 18px;
+    font-style: italic;
+    color: var(--gris);
+}
+
+.underline {
+    text-decoration: underline;
 }
