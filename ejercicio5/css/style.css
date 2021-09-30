@@ -1,0 +1,61 @@
+:root {
+    --secundario: rgb(16, 37, 100);
+}
+
+body {
+    background-color: seashell;
+    margin: 0;
+}
+
+
+/*globales*/
+
+h3 {
+    color: var(--secundario);
+}
+
+
+/*Header*/
+
+h1 {
+    font-size: 20px;
+    background-color: rgb(255, 188, 64);
+    padding: 10px 15px;
+    height: 100%;
+    margin-top: 0;
+}
+
+
+/*main*/
+
+main {
+    padding-left: 20px;
+}
+
+
+/*receta*/
+
+.receta {
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: royalblue;
+}
+
+p {
+    font-style: normal;
+    font-weight: 600;
+}
+
+p span {
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(85, 119, 221);
+}
+
+
+/*Ingredientes y preparación*/
+
+ul {
+    list-style: none;
+}
