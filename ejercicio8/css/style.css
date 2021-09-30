@@ -14,6 +14,13 @@ body {
 }
 
 
+/*global*/
+
+.format {
+    display: flex;
+}
+
+
 /*header*/
 
 .title {
@@ -26,6 +33,13 @@ body {
 
 .title__text-brown {
     color: var(--secundario);
+}
+
+
+/*navegacion*/
+
+.navigation {
+    padding-right: 20px;
 }
 
 
